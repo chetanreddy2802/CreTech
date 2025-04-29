@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background: url('https://t3.ftcdn.net/jpg/03/32/43/58/360_F_332435865_r2XDjE4oHdKmBgKWRrh5fHdmgrNUWBGE.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.5s ease;
+  }
+  
+  .main-container {
+    text-align: center;
+  }
+  
+  .quiz-title {
+    font-size: 2.5rem;
+    color: #ffa500;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .quiz-container {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .question {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .answer {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffa500;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .answer:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  .answer.correct {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  
+  .answer.wrong {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  
+  /* Result screen */
+  .result-container {
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .result-container h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .result-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .result-container button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #ffa500;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .result-container button:hover {
+    background-color: #ff8400;
+  }
+  
+  /*  here is the backgrounds after result */
+  body.pass {
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20220129/pngtree-passed-stamp-shows-quality-control-approved-satisfied-assurance-ink-photo-image_5932090.jpg') no-repeat center center/cover;
+  }
+  
+  body.fail {
+    background: url('https://static.vecteezy.com/system/resources/previews/019/797/723/non_2x/failed-rubber-stamp-with-grunge-style-on-white-background-vector.jpg') no-repeat center center/cover;
+  }
+  

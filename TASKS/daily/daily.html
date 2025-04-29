@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Quote Generator</title>
+  <link rel="stylesheet" href="daily.css" />
+</head>
+<body>
+  <h1 class="main-heading">✨ Daily Quote Generator ✨</h1>
+
+  <div class="quote-box">
+    <p id="quote-text">Loading...</p>
+
+    <div class="buttons">
+      <button class="btn-nav" onclick="previousQuote()">⬅️ Previous</button>
+      <button class="btn-nav" onclick="nextQuote()">➡️ Next</button>
+
+      <div class="share-wrapper">
+        <button class="btn-share" onclick="toggleShareOptions()">📤 Share</button>
+        <div id="share-options" class="share-options">
+          <button onclick="shareOnTwitter()">🐦 Twitter</button>
+          <button onclick="shareOnFacebook()">📘 Facebook</button>
+          <button onclick="shareOnWhatsApp()">💬 WhatsApp</button>
+          <button onclick="shareOnSMS()">📱 SMS</button>
+          <button onclick="shareOnInstagram()">📸 Instagram</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="daily.js"></script>
+</body>
+</html>

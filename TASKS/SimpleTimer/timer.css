@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://www.shutterstock.com/image-vector/vector-technology-clock-wallpaperfuturistic-background-600nw-1974150518.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  top: 40px;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #00000055;
+}
+
+.container {
+  /* background: url('https://www.shutterstock.com/image-vector/vector-technology-clock-wallpaperfuturistic-background-600nw-1974150518.jpg'); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  text-align: center;
+  max-width: 400px;
+  color: #fff;
+}
+
+.timer {
+  font-size: 4rem;
+  margin: 20px 0;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff7e5f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #feb47b;
+  transform: scale(1.05);
+}
+
+.mode {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
