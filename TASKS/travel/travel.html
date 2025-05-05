@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Destination Showcase</title>
+  <link rel="stylesheet" href="travel.css" />
+</head>
+<body>
+  <header>
+    <h1>Explore India</h1>
+    <select id="filter" onchange="filterDestinations()">
+      <option value="all">All Destinations</option>
+      <option value="south">South India</option>
+      <option value="north">North India</option>
+    </select>
+  </header>
+
+  <section id="gallery" class="gallery"></section>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modal-title"></h2>
+      <div id="modal-subplaces" class="subplaces-container"></div>
+    </div>
+  </div>
+  <div id="modal" class="modal hidden">
+    <div class="modal-content"></div>
+  </div>
+
+  <script src="travel.js"></script>
+</body>
+</html>
+
