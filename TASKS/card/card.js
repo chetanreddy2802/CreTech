@@ -1,8 +1,8 @@
 const bgImages = {
     default: 'url("https://c0.wallpaperflare.com/preview/544/568/910/postcard-gift-voucher-wish-invitation-card.jpg")',
     birthday: 'url("https://thumbs.dreamstime.com/z/birthday-podium-vector-background-design-happy-birthday-invitation-card-balloons-birthday-podium-vector-background-design-276083927.jpg?ct=jpeg")',
-    marriage: 'url("https://as1.ftcdn.net/v2/jpg/09/35/29/02/1000_F_935290297_c56omypkVfVr5imFTAEgY48Wj4frtbNM.jpg")',
-    house: 'url("https://as2.ftcdn.net/v2/jpg/11/63/15/93/1000_F_1163159381_TSqvc2hsZOMrez0v3dLyYuFjoBNwfGhs.jpg")',
+    marriage: 'url("https://t3.ftcdn.net/jpg/09/35/29/02/360_F_935290297_c56omypkVfVr5imFTAEgY48Wj4frtbNM.jpg")',
+    house: 'url("https://templates.sfo3.cdn.digitaloceanspaces.com/house_warming/lovely_home/video_thumbnail.jpg")',
     festival: 'url("https://media.istockphoto.com/id/1399105128/vector/golden-glitter-confetti-falling-on-black-vector-background-shining-gold-shimmer-luxury.jpg?s=612x612&w=0&k=20&c=aiC5-QyzDJy6IZ91FiDYSxKvAVX4QZnohGBBbl5tczk=")'
   };
   
